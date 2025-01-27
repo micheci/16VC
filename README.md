@@ -18,14 +18,15 @@ To get started with the Peer-to-Peer Rental Platform API:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-repo/peer-to-peer-rental-api.git
+     https://github.com/micheci/16VC.git
    ```
 
 2. Install dependencies:
-   `use npm i (saves us 1 blink worth of time jaja vs npm install. Just realized reading this took up more time than a blink, MB)`
+   ```
+   use npm i (saves us 1 blink worth of time jaja vs npm install. Just realized reading this took up more time than a blink, MB)`
    ```
 
-3. Run the API:
+4. Run the API:
    ```
    npm start
    ```
