@@ -202,8 +202,8 @@ Data is stored in-memory for the sake of simplicity (using an array). The follow
 
 ### Item:
 
-```json
-let items = [
+```
+   let items = [
   {
     id: 1,
     name: "PS5",
@@ -234,22 +234,6 @@ let items = [
       { startDate: "2025-01-20", endDate: "2025-01-22" },
       { startDate: "2025-01-24", endDate: "2025-01-26" },
     ],
-  },
-];
-```
-
-### Example Items Array:
-
-```javascript
-const items = [
-  {
-    id: 1,
-    name: "GoPro Hero 10",
-    description: "GoPro Hero 10 Action Camera",
-    pricePerDay: 30,
-    quantity: 1,
-    rentedCount: 0,
-    rentedDates: [],
   },
 ];
 ```
