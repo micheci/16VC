@@ -1,6 +1,10 @@
 # Peer-to-Peer Rental Platform API
 
-This is a simple backend API built for a Peer-to-Peer rental platform where users can rent out items such as tools, books, and gadgets. The API supports item listing, searching, renting, and returning items.
+This is a backend API built for a Peer-to-Peer rental platform where users can rent out items such as tools, books, and gadgets. The API supports item listing, searching, renting, and returning items.
+
+Changes:
+In the first version, the availability status of an item would change to "unavailable" when rented. While this approach worked, I realized that stores and individuals typically carry multiple units of the same item. To better reflect this, I updated the system to use a quantity field. This change allows users to rent out more than one of the same items if they have multiple units to sell and also will enable people to rent more than one. It also simplifies the array since we won't need to add a new object to the array each time we want to add an existing item and can instead add on to the existing object
+
 
 ## Table of Contents
 
